@@ -14,6 +14,7 @@ services:
       - NET_ADMIN
     volumes:
       - /config
+      - /assets
 networks:
   netbootxyz_network:
     driver: ipvlan
